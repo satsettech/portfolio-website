@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "John D.",
+    designation: "CEO of InnovateCorp",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "SatsetTech transformed our vision into a reality. Their professionalism and expertise are unmatched!",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "David M.",
+    designation: "Founder of GreenTech Solutions",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Working with SatsetTech was a game-changer for our business. Their attention to detail and commitment to quality are second to none.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Mark T.",
+    designation: "CTO of DigitalWave",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The team at SatsetTech exceeded our expectations at every turn. Their collaborative approach and technical knowledge ensured the success of our project.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -34,11 +34,11 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Clients Says"
+          paragraph="Our clients satisfaction speaks volumes about our commitment to excellence. Here are a few words from those who have trusted us with their projects."
           center
         />
 
